@@ -13,15 +13,12 @@ mathjax: true
 
 ```
 apktool d test.apk
-
 ```
 
 ### Build
 
 ```
-
 apktool b test
-
 ```
 
 ### Force Example
@@ -29,7 +26,5 @@ apktool b test
 If error in build like '@android:style/Animation.OptionsPanel', run this before build. Ref [Issue #1745](https://github.com/iBotPeaches/Apktool/issues/1745).
 
 ```
-
 apktool empty-framework-dir --force
-
 ```
