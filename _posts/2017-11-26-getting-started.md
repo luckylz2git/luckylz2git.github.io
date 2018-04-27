@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started with Sleek
 mathjax: true
+category: Default
 ---
 
 ## Getting started
