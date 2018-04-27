@@ -18,8 +18,13 @@ permalink: /category/
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
+        <div class="post-card__header">
+          <h4>{{ post.title }}</h4>
+          {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+          <span class="post-card__meta">
+            <time>{{ post.date | date: date_format }}</time>
+          </span>
+        </div>
       </li>
       </a>
       {% endfor %}
