@@ -19,11 +19,8 @@ permalink: /category/
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         <div class="post-card__header">
-          <h4>{{ post.title }}</h4>
           {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
-          <span class="post-card__meta">
-            <time>{{ post.date | date: date_format }}</time>
-          </span>
+          <h4>{{ post.title }} <time>{{ post.date | date: date_format }}</time></h4>
         </div>
       </li>
       </a>
