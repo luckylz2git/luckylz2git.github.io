@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Note for dex-tool
+title: Notes for dex-tool
 featured-img: emile-perron-190221
 mathjax: true
 ---
