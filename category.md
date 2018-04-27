@@ -16,12 +16,12 @@ permalink: /category/
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
-      <a class="header__link" href="{{ site.baseurl }}{{ post.url }}">
+      <a style="color:#343851;" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         <div>
           {{ post.title }}
           {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
-          <small style="padding-left:7px;">{{ post.date | date: date_format }}</small>
+          <small style="padding-left:7px;color:#a0a0a0;">{{ post.date | date: date_format }}</small>
         </div>
       </li>
       </a>
