@@ -3,6 +3,7 @@ layout: post
 title: Simple Examples of Apktool
 featured-img: sleek
 mathjax: true
+category: Android
 ---
 
 ## Apktool

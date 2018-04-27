@@ -3,6 +3,7 @@ layout: post
 title: Notes for dex-tool
 featured-img: emile-perron-190221
 mathjax: true
+category: Android
 ---
 
 ## dex2jar
